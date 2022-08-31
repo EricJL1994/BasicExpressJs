@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+.header{
+  text-align: center;
+  border: black 1px solid;
+}
+
+h1{
+  color: white;
+  font-family: 'Raleway',sans-serif;
+}
+
+p{
+  color:#f8f8f8;
+  font-family: 'Raleway',sans-serif;
+}
+
+a{
+  color: #c8c8c8;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #1c1c1c;
+  text-decoration: underline;
+}
+
+body{
+  height: 100%;
+  background: linear-gradient(319deg, #17ebb4, #171feb);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 9s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
